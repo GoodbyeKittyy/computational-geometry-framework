@@ -6,6 +6,11 @@
 [![Rust](https://img.shields.io/badge/Rust-1.70+-orange.svg)](https://www.rust-lang.org/)
 
 ## Overview
+</br>
+<img width="1002" height="725" alt="image" src="https://github.com/user-attachments/assets/1564bd91-d161-4ba7-8f91-3143a4e0840c" />
+
+</br>
+
 
 Industrial-strength geometric computing platform implementing state-of-the-art algorithms for computational geometry, mesh generation, and spatial analysis. Designed for high-performance applications in GIS, 3D modeling, finite element analysis, game development, and robotic motion planning.
 
@@ -89,7 +94,7 @@ computational-geometry-framework/
 ├── geometry_framework.m           # MATLAB implementation
 ├── GeometryFramework.scala        # Scala functional implementation
 ├── README.md                      # This file
-└── interactive_ui.html            # Web-based visualization interface
+└── geometry_framework_ui.tsx      # TypeScript Interactive Artifact
 ```
 
 ## Architecture
@@ -439,62 +444,5 @@ If you use this framework in your research, please cite:
 }
 ```
 
-## References
 
-### Key Papers
-1. Bowyer, A. (1981). "Computing Dirichlet tessellations"
-2. Watson, D. F. (1981). "Computing the n-dimensional Delaunay tessellation"
-3. Graham, R. L. (1972). "An efficient algorithm for determining the convex hull"
-4. Eddy, W. F. (1977). "A new convex hull algorithm for planar sets"
-5. Preparata, F. P., & Hong, S. J. (1977). "Convex hulls of finite sets of points"
-
-### Books
-- "Computational Geometry: Algorithms and Applications" by de Berg et al.
-- "Computational Geometry in C" by Joseph O'Rourke
-- "Geometric Tools for Computer Graphics" by Schneider & Eberly
-
-### Online Resources
-- [CGAL - Computational Geometry Algorithms Library](https://www.cgal.org/)
-- [PostGIS Documentation](https://postgis.net/docs/)
-- [Geometry Processing Research](http://geometry.stanford.edu/)
-
-## Acknowledgments
-
-Special thanks to:
-- CGAL team for algorithmic inspiration
-- PostGIS developers for spatial database integration
-- Open source geometry community
-- Contributors and early adopters
-
-## Support
-
-- **Documentation**: [https://docs.geometry-framework.org](https://docs.geometry-framework.org)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/geometry-framework/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/geometry-framework/discussions)
-- **Email**: support@geometry-framework.org
-
-## Roadmap
-
-### Version 2.0 (Q2 2025)
-- [ ] 3D Delaunay tetrahedralization
-- [ ] Constrained Delaunay triangulation
-- [ ] GPU acceleration using CUDA/OpenCL
-- [ ] Distributed processing with Apache Spark
-
-### Version 2.5 (Q4 2025)
-- [ ] Machine learning integration for adaptive meshing
-- [ ] Real-time streaming geometry processing
-- [ ] WebAssembly port for browser deployment
-- [ ] Mobile SDK (iOS/Android)
-
-### Version 3.0 (Q2 2026)
-- [ ] Quantum geometry algorithms (experimental)
-- [ ] Neural mesh generation
-- [ ] Cloud-native architecture
-- [ ] Advanced visualization toolkit
-
----
-
-**Built with precision. Optimized for performance. Designed for scale.**
-
-*Computational Geometry Framework - Where mathematics meets engineering.*
+**⭐ Star this repository if you find it helpful!**
